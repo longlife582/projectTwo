@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  background-image: url(/Classwork/ProjectTwo/images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+
+
+.form {
+  background-color: rgb(255, 255, 255);
+  padding: 2em 2em;
+  border-radius: 5px; 
+  color: hsl(246, 25%, 77%);
+  box-shadow: rgba(0, 0, 0, 0.171) 0px 10px;
+} 
+
+.form p {
+  width: 100%;
+  margin: 10px auto;
+  font-size: 10px;
+}
+
+article {
+  background-color: hsl(248, 32%, 49%);
+  padding:.1em .7em;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.171) 0px 10px;
+}
+
+article p {
+  padding: 0 4em;
+}
+
+
+input {
+  height: 1em;
+  width: 100%;
+  border: 1px solid rgb(221, 213, 213);
+  border-radius: 5px;
+  padding: 1.6em 1.5em;
+  outline: none;
+}
+
+
+.field {
+  margin-bottom: 25px;
+  
+}
+
+.txt {
+  color: red;
+  text-align: right;
+  font-weight: 500;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1em 3.5em;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: hsl(154, 45%, 46%) 0px 4px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.content {
+  align-self: center;
+  text-align: left;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.container {
+  display: flex;
+  padding: 5em;
+  justify-content: space-around;
+  
+}
+
+.content {
+  align-self: center;
+  text-align: left;
+  width: 48%;
+}
+
+.content h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 50px;
+}
+
+
+input {
+  width: 350px;
+}
+
+
+
+
+  
+  
+
