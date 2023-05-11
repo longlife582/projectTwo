@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
 
 body {
-  /* background-image: url(/images/bg-intro-desktop.png); */
+  background-image: url(../images/bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);
   background-position: center;
   text-align: center;
@@ -46,7 +46,8 @@ input {
   width: 100%;
   border: 1px solid rgb(221, 213, 213);
   border-radius: 5px;
-  padding: 0.5em 1em;
+  padding: 0.5em 0.5em;
+  /* padding-right: ; */
   outline: none;
 }
 
@@ -78,7 +79,7 @@ input {
 
 @media screen and (min-width: 700px) {
   body {
-    background-image: url();
+    /* background-image: url(/images/bg-intro-desktop.png); */
   }
 
   .container {
@@ -108,7 +109,7 @@ input {
     /* width: 30%; */
   }
 
-  input {
+  /* input {
     width: 300px;
-  }
+  } */
 }
