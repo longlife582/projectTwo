@@ -30,6 +30,7 @@ article {
   border-radius: 5px;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.171) 0px 10px;
+  width: 89%;
 }
 
 article p {
@@ -81,29 +82,36 @@ input {
 
 .content {
   align-self: center;
-  text-align: left;
-  width: 48%;
+  text-align: center;
+  /* justify-content: center; */
+/* margin: 16px; */
+  width: 58%;
+  background-color: brown;
+
 }
 
 .content h1 {
   font-weight: 700;
   font-size: 3rem;
   line-height: 50px;
+  background-color: aqua;
+  /* align-items: center; */
+
 }
 
 input {
   width: 350px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width:576px) {
   body {
     background-image: url(/img/bg-intro-desktop.png);
   }
 
   .container {
     display: flex;
-    padding: 4em;
-    justify-content: space-around;
+    padding: 2em;
+    justify-content: space-between;
     flex-direction: column;
     /* height: 1em; */
   }
@@ -112,6 +120,7 @@ input {
     align-self: center;
     text-align: left;
     width: 120%;
+    padding: 0;
   }
 
   .content h1 {
@@ -127,18 +136,19 @@ input {
   button {
     padding: em 8em;
     width: 100%;
-    height: 3em;
+    height: 4em;
   }
 
   input {
-    width: 150px;
+    width: 100;
     /* height: 8px; */
+    
   }
 
   .form {
-    height: 60em;
+    height: auto;
     width: 80%;
-    padding: 2em 2em;
+    padding: 1em 2em;
   }
   .btn {
     font-size: 0.5em;
