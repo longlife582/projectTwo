@@ -55,9 +55,6 @@ input {
   margin-bottom: 35px;
 }
 
-.error::placeholder {
-  color: red;
-}
 
 .txt {
   color: red;
@@ -78,9 +75,7 @@ input {
 }
 
 @media screen and (min-width: 700px) {
-  body {
-    /* background-image: url(/images/bg-intro-desktop.png); */
-  }
+  
 
   .container {
     display: flex;
